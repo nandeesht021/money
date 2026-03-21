@@ -1,0 +1,47 @@
+[
+  {
+    "order_id": "PAPER0001",
+    "date": "2026-03-21 19:03",
+    "fund": "Nifty 50 Index Fund",
+    "symbol": "NIFTYBEES",
+    "amount": 5000,
+    "status": "COMPLETE (Paper)",
+    "type": "SIP"
+  },
+  {
+    "order_id": "PAPER0002",
+    "date": "2026-03-21 19:03",
+    "fund": "Gold ETF",
+    "symbol": "NIFTYBEES",
+    "amount": 1000,
+    "status": "COMPLETE (Paper)",
+    "type": "SIP"
+  },
+  {
+    "order_id": "PAPER0003",
+    "date": "2026-03-21 19:03",
+    "fund": "Liquid Debt Fund",
+    "symbol": "NIFTYBEES",
+    "amount": 2000,
+    "status": "COMPLETE (Paper)",
+    "type": "SIP"
+  },
+  {
+    "order_id": "PAPER0004",
+    "date": "2026-03-21 19:12",
+    "fund": "Nifty 50 Index Fund",
+    "symbol": "NIFTYBEES",
+    "amount": 1000,
+    "status": "COMPLETE (Paper)",
+    "type": "SIP"
+  },
+  {
+    "order_id": "PAPER0005",
+    "date": "2026-03-21 19:12",
+    "fund": "Gold ETF",
+    "symbol": "NIFTYBEES",
+    "amount": 1000,
+    "status": "COMPLETE (Paper)",
+    "type": "SIP"
+  }
+]
