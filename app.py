@@ -1,4 +1,20 @@
 import streamlit as st
+from auth import check_auth
+
+# 🔐 AUTH FIRST
+check_auth()
+
+# 🔓 LOGOUT BUTTON
+col1, col2 = st.columns([8, 1])
+with col2:
+    if st.button("Logout"):
+        st.session_state["logged_in"] = False
+        st.rerun()
+
+# 👇 YOUR EXISTING APP
+st.title("💰 FinSmart Dashboard")
+
+# rest of your code...
 
 st.set_page_config(
     page_title="FinSmart — AI Wealth Manager",
