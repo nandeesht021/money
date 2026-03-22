@@ -23,10 +23,15 @@ def calculate_tax_saved(investments):
             "tax_rate": tax_rate
         }
 
-        if pnl > 0:
-            gains.append(entry)
-        else:
-            losses.append(entry)
+      total_profit = sum(profits)
+total_loss = sum(losses)
+
+if total_loss > 0:
+    taxable_profit = total_profit - total_loss
+else:
+    taxable_profit = total_profit  # no change
+
+tax = calculate_tax(taxable_profit)
 
     total_gain = sum(g["pnl"] for g in gains)
     total_loss = abs(sum(l["pnl"] for l in losses))
